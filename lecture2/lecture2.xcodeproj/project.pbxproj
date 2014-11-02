@@ -15,6 +15,7 @@
 		8892BFFF1A06AFF20047BD23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8892BFFD1A06AFF20047BD23 /* LaunchScreen.xib */; };
 		8892C00B1A06AFF20047BD23 /* lecture2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8892C00A1A06AFF20047BD23 /* lecture2Tests.m */; };
 		8892C0171A06B0250047BD23 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8892C0161A06B0250047BD23 /* Card.m */; };
+		88AEF4F61A06B65D00B1369D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEF4F51A06B65D00B1369D /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		8892C00A1A06AFF20047BD23 /* lecture2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lecture2Tests.m; sourceTree = "<group>"; };
 		8892C0151A06B0250047BD23 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		8892C0161A06B0250047BD23 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		88AEF4F41A06B65D00B1369D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		88AEF4F51A06B65D00B1369D /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				8892C0151A06B0250047BD23 /* Card.h */,
 				8892C0161A06B0250047BD23 /* Card.m */,
+				88AEF4F41A06B65D00B1369D /* PlayingCard.h */,
+				88AEF4F51A06B65D00B1369D /* PlayingCard.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				8892BFF71A06AFF20047BD23 /* ViewController.m in Sources */,
 				8892BFF41A06AFF20047BD23 /* AppDelegate.m in Sources */,
 				8892BFF11A06AFF20047BD23 /* main.m in Sources */,
+				88AEF4F61A06B65D00B1369D /* PlayingCard.m in Sources */,
 				8892C0171A06B0250047BD23 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +431,7 @@
 				8892C0101A06AFF20047BD23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8892C0111A06AFF20047BD23 /* Build configuration list for PBXNativeTarget "lecture2Tests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +440,7 @@
 				8892C0131A06AFF20047BD23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
