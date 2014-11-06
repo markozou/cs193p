@@ -81,13 +81,10 @@
 		88F8BEA11A0A25AA006A69DB /* lecture4 */ = {
 			isa = PBXGroup;
 			children = (
-				88F8BEA61A0A25AA006A69DB /* AppDelegate.h */,
-				88F8BEA71A0A25AA006A69DB /* AppDelegate.m */,
 				88F8BEA91A0A25AA006A69DB /* ViewController.h */,
 				88F8BEAA1A0A25AA006A69DB /* ViewController.m */,
 				88F8BEAC1A0A25AA006A69DB /* Main.storyboard */,
 				88F8BEAF1A0A25AA006A69DB /* Images.xcassets */,
-				88F8BEB11A0A25AA006A69DB /* LaunchScreen.xib */,
 				88F8BEA21A0A25AA006A69DB /* Supporting Files */,
 			);
 			path = lecture4;
@@ -96,6 +93,9 @@
 		88F8BEA21A0A25AA006A69DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88F8BEA61A0A25AA006A69DB /* AppDelegate.h */,
+				88F8BEA71A0A25AA006A69DB /* AppDelegate.m */,
+				88F8BEB11A0A25AA006A69DB /* LaunchScreen.xib */,
 				88F8BEA31A0A25AA006A69DB /* Info.plist */,
 				88F8BEA41A0A25AA006A69DB /* main.m */,
 			);
@@ -411,6 +411,7 @@
 				88F8BEC41A0A25AA006A69DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F8BEC51A0A25AA006A69DB /* Build configuration list for PBXNativeTarget "lecture4Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				88F8BEC71A0A25AA006A69DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
